@@ -8,6 +8,7 @@ import androidx.compose.material.Surface
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.tooling.preview.Preview
+import com.tejat.mobcomphomework.ui.HomeWorkApp
 import com.tejat.mobcomphomework.ui.theme.MobCompHomeWorkTheme
 
 class MainActivity : ComponentActivity() {
@@ -26,7 +27,8 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun Greeting(name: String) {
-    Text(text = "Hello $name!")
+    // Text(text = "Hello $name!")
+    HomeWorkApp()
 }
 
 @Preview(showBackground = true)
